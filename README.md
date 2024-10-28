@@ -51,22 +51,22 @@ El propósito de esta práctica es configurar un entorno de base de datos utiliz
    docker network connect redPractica pgadmin
    ```
 5. **Comprobar si la Practica Funciono**
-   a.  En este Caso se Verifico Ingresando al Puerto que se defini para PgAdmin que es el 8089:80.
+   - En este Caso se Verifico Ingresando al Puerto que se defini para PgAdmin que es el 8089:80.
    ![image](https://github.com/user-attachments/assets/3be24108-a199-4589-bb63-1001d525b30f)
    
-   b.  Al Momento de Ingresar nos va a Mostrar una Pantalla de Logeo, el caul el Usuario y la Contraseña el cual se definio en el paso 2.
+   -  Al Momento de Ingresar nos va a Mostrar una Pantalla de Logeo, el caul el Usuario y la Contraseña el cual se definio en el paso 2.
    ![image](https://github.com/user-attachments/assets/6443b851-c3da-40e5-8a8b-43c99658bcf6)
    
-   c.  Despues de loguearte se hace la conexion entre los 2 Contenedore mediante la opcion que dice Agregar un Nuevo Servidor.
+   -  Despues de loguearte se hace la conexion entre los 2 Contenedore mediante la opcion que dice Agregar un Nuevo Servidor.
    ![image](https://github.com/user-attachments/assets/b3b031b9-cde2-46c2-837c-7ecefd5a3013)
    
-   d.  Configuracion
+   -  Configuracion
        1. Se da un Nombre al Servidor
            ![image](https://github.com/user-attachments/assets/fce73bc6-8de1-4f62-a245-59da22527d66)
        2. Se Ingresa el Nombre de Otro Servidor que es Postgres y la base
            ![image](https://github.com/user-attachments/assets/5df087d9-2a47-4ddc-8b8c-89036f35b745)
 
-   e. Por Ultimo despues de Haber echa la conexion entre estos Contenedores se puede comprobar Creando Una Tabla
+   - Por Ultimo despues de Haber echa la conexion entre estos Contenedores se puede comprobar Creando Una Tabla
          ![image](https://github.com/user-attachments/assets/f0b4b284-5ef0-492e-a825-0e60a45abebd)
 
 6. **Resultados Esperados**
